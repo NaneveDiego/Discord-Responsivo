@@ -1,0 +1,174 @@
+@import url(reset.css);
+
+header {
+    background-image: url(../images/Header\ Background.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 20px;
+
+}
+
+.content-sec{
+   display: flex;
+   flex-direction: column;
+    gap: 20px;
+    margin-bottom: 20px;
+}
+
+
+
+p {
+    margin: 0;
+}
+
+.black {
+    color: rgba(35, 39, 42, 1) !important;
+}
+
+
+.bg {
+    background-color: rgba(35, 39, 42, 1);
+}
+
+.titulo {
+    font-family: "Luckiest Guy";
+    font-weight: 400;
+    font-size: 2rem;
+    color: white
+}
+
+.info-black {
+    font-family: "Open Sans", sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+    color: rgba(35, 39, 42, 1);
+}
+
+.info {
+    font-family: "Open Sans", sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+    color: white;
+}
+
+.info-black-bold {
+    font-family: "Open Sans", sans-serif;
+    font-size: 1.5rem;
+    font-weight: 800;
+    color: rgba(35, 39, 42, 1);
+}
+
+
+.butaos {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    justify-content: center;
+    align-items: center;
+    margin: 25px 0;
+    width: 100%;
+
+}
+
+.butaos button {
+    border-color: transparent;
+    border-radius: 28px;
+    height: 50px;
+    padding: 10px;
+    width: 100%;
+
+}
+
+section {
+    padding: 20px;
+}
+.text{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+
+.second,.four {
+    background: rgba(246, 246, 246, 1);
+}
+
+footer {
+    height: 140px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@media screen and (min-width: 720px) {
+
+    header {
+
+        background-image: url(../images/Header\ Background\ \(1\).png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        padding: 20px;
+        display: flex;
+        justify-content: center;
+    }
+
+    header .content {
+        max-width: 1420px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .butaos {
+        flex-direction: row;
+        max-width: 90%;
+    }
+
+    .titulo{
+        font-size: 3.5rem;
+    }
+ 
+
+    .content-sec{
+        max-width: 1920px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        gap: 20px;
+        padding: 40px 0;
+    }
+    .content-sac{
+        max-width: 1920px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 20px;
+        padding: 40px 0;
+    }
+    .content-sac img {
+        width: 100%;
+    }
+    .content-sec img{
+        width: 100%;
+    }
+
+
+    .text{
+        max-width: 40%;
+
+    }
+
+    .info-black-bold{
+        font-size: 2.5rem;
+    }
+
+    
+
+
+
+
+
+
+}
